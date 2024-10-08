@@ -12,6 +12,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 
 vim.opt.rtp:prepend(lazypath)
+vim.o.guifont = "Source Code Pro:h12" 
 
 local status_ok, lazy = pcall(require, "lazy")
 if not status_ok then
@@ -20,6 +21,6 @@ end
 
 lazy.setup("plugins", {
 	install = {
-		colorscheme = { "gruvbox" },
+		colorscheme = { "ayu-dark" },
 	},
 })
