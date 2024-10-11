@@ -2,7 +2,7 @@ local set = vim.opt
 
 set.number = true -- line number
 set.relativenumber = true
-set.mouse = "a" -- Enable mouse
+set.mouse = "a"   -- Enable mouse
 set.tabstop = 4
 set.shiftwidth = 4
 set.scrolloff = 8 -- Keep minimum x number of screen lines above and below the cursor
